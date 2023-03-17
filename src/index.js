@@ -21,7 +21,7 @@ const routerList = createBrowserRouter([
       {index:true, element:<Home />},
       {path:"/movies", element:<Movies />},
       {path:"/genres", element:<Genres />},
-      {path:"/admin/movie/0", element:<EditMovie />},
+      {path:"/admin/movie/:id", element:<EditMovie />},
       {path:"/admin/manage-catalogue", element:<ManageCatalogue />},
       {path:"/login", element:<Login />},
       {path:"/graphql", element:<GraphQl />},
